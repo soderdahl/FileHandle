@@ -14,6 +14,7 @@ public class ReadFile {
             InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream, Charset.forName("ISO-8859-1"));
             BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
             List<String> collect = bufferedReader.lines().collect(Collectors.toList());
+            bufferedReader.close();
             return Optional.of(collect);
         } catch (Exception e) {
             System.out.println("The file could not fund!");

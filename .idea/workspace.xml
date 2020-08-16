@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e67197-7ab3-4278-b449-812d6ada63ba" name="Default Changelist" comment="" />
+    <list default="true" id="68e67197-7ab3-4278-b449-812d6ada63ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/kth/payment/implementation/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/kth/payment/implementation/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/se/kth/payment/implementation/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/se/kth/payment/implementation/ReadFile.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +26,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fGVWtEJgQdYZRsn3bq03ywetUr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -62,7 +72,14 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UtilTest.convertStringToBigDecimal">
+  <component name="RunManager" selected="JUnit.se.kth.payment in FileHandle">
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainClass" />
+      <module name="FileHandle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BetalningserviceParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FileHandle" />
       <extension name="coverage">
@@ -89,22 +106,6 @@
       <option name="PACKAGE_NAME" value="se.kth.payment" />
       <option name="MAIN_CLASS_NAME" value="se.kth.payment.PaymentParserServiceTest" />
       <option name="METHOD_NAME" value="readPaymentFileBetalningsservice" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadFileTest.readFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FileHandle" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="se.kth.payment.implementation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="se.kth.payment.implementation" />
-      <option name="MAIN_CLASS_NAME" value="se.kth.payment.implementation.ReadFileTest" />
-      <option name="METHOD_NAME" value="readFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,19 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.se.kth.payment in FileHandle" />
       <item itemvalue="JUnit.BetalningserviceParserTest" />
-      <item itemvalue="JUnit.ReadFileTest.readFile" />
       <item itemvalue="JUnit.PaymentParserServiceTest.readPaymentFileBetalningsservice" />
       <item itemvalue="JUnit.UtilTest.convertStringToBigDecimal" />
+      <item itemvalue="Application.MainClass" />
+      <item itemvalue="JUnit.se.kth.payment in FileHandle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.se.kth.payment in FileHandle" />
+        <item itemvalue="JUnit.BetalningserviceParserTest" />
+        <item itemvalue="Application.MainClass" />
         <item itemvalue="JUnit.UtilTest.convertStringToBigDecimal" />
         <item itemvalue="JUnit.PaymentParserServiceTest.readPaymentFileBetalningsservice" />
-        <item itemvalue="JUnit.ReadFileTest.readFile" />
-        <item itemvalue="JUnit.BetalningserviceParserTest" />
-        <item itemvalue="JUnit.se.kth.payment in FileHandle" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595844450432</updated>
       <workItem from="1595844454191" duration="37666000" />
-      <workItem from="1596169794046" duration="104158000" />
+      <workItem from="1596169794046" duration="111442000" />
     </task>
     <servers />
   </component>
@@ -211,29 +212,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595917497277" />
-    <state width="2268" height="369" key="GridCell.Tab.0.bottom" timestamp="1597000265727">
-      <screen x="-2560" y="0" width="2560" height="1400" />
+    <state width="1321" height="121" key="GridCell.Tab.0.bottom" timestamp="1597605043770">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="2268" height="369" key="GridCell.Tab.0.bottom/0.0.1366.728/-2560.0.2560.1400@-2560.0.2560.1400" timestamp="1597000265727" />
-    <state width="1321" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728/-2560.0.2560.1400@0.0.1366.728" timestamp="1596814241027" />
+    <state width="1321" height="121" key="GridCell.Tab.0.bottom/0.0.1366.728/-2560.0.2560.1400@0.0.1366.728" timestamp="1597605043770" />
     <state width="1321" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596959317634" />
-    <state width="2268" height="369" key="GridCell.Tab.0.center" timestamp="1597000265727">
-      <screen x="-2560" y="0" width="2560" height="1400" />
+    <state width="1321" height="121" key="GridCell.Tab.0.center" timestamp="1597605043770">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="2268" height="369" key="GridCell.Tab.0.center/0.0.1366.728/-2560.0.2560.1400@-2560.0.2560.1400" timestamp="1597000265727" />
-    <state width="1321" height="196" key="GridCell.Tab.0.center/0.0.1366.728/-2560.0.2560.1400@0.0.1366.728" timestamp="1596814241027" />
+    <state width="1321" height="121" key="GridCell.Tab.0.center/0.0.1366.728/-2560.0.2560.1400@0.0.1366.728" timestamp="1597605043770" />
     <state width="1321" height="222" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596959317634" />
-    <state width="2268" height="369" key="GridCell.Tab.0.left" timestamp="1597000265727">
-      <screen x="-2560" y="0" width="2560" height="1400" />
+    <state width="1321" height="121" key="GridCell.Tab.0.left" timestamp="1597605043770">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="2268" height="369" key="GridCell.Tab.0.left/0.0.1366.728/-2560.0.2560.1400@-2560.0.2560.1400" timestamp="1597000265727" />
-    <state width="1321" height="196" key="GridCell.Tab.0.left/0.0.1366.728/-2560.0.2560.1400@0.0.1366.728" timestamp="1596814241026" />
+    <state width="1321" height="121" key="GridCell.Tab.0.left/0.0.1366.728/-2560.0.2560.1400@0.0.1366.728" timestamp="1597605043770" />
     <state width="1321" height="222" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596959317634" />
-    <state width="2268" height="369" key="GridCell.Tab.0.right" timestamp="1597000265727">
-      <screen x="-2560" y="0" width="2560" height="1400" />
+    <state width="1321" height="121" key="GridCell.Tab.0.right" timestamp="1597605043770">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="2268" height="369" key="GridCell.Tab.0.right/0.0.1366.728/-2560.0.2560.1400@-2560.0.2560.1400" timestamp="1597000265727" />
-    <state width="1321" height="196" key="GridCell.Tab.0.right/0.0.1366.728/-2560.0.2560.1400@0.0.1366.728" timestamp="1596814241027" />
+    <state width="1321" height="121" key="GridCell.Tab.0.right/0.0.1366.728/-2560.0.2560.1400@0.0.1366.728" timestamp="1597605043770" />
     <state width="1321" height="222" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596959317634" />
     <state width="1321" height="198" key="GridCell.Tab.1.bottom" timestamp="1596958457942">
       <screen x="0" y="0" width="1366" height="728" />
